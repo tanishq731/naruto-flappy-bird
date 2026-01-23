@@ -1,0 +1,62 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-image: url('images/LeafVillage.jpg');
+    /* prevents scrollbars if elements go out */
+}
+
+#bird {
+    background-image: url('images/naruto.png');
+    background-size: cover;
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+
+#pillar {
+    background-image: url('images/Pain-2.png');
+    background-size: 100% 100%;
+    /* background-color: transparent; */
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 200px;
+    left: 700px;
+}
+
+#score {
+    text-align: center;
+    color: blueviolet;
+    font-size: 50px;
+    margin: 10px;
+    /* position: absolute;
+    width: 100%;
+    top: 50px;
+    z-index: 10;
+    color: white;
+    font-family: sans-serif;
+    margin: 0; */
+}
+
+#scoreN {
+    text-align: center;
+    color: blueviolet;
+    font-size: 50px;
+    margin: 10px;
+}
+
+#timer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: red;
+    font-weight: bold;
+    z-index: 1000;
+}
