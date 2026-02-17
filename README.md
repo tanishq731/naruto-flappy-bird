@@ -17,3 +17,5 @@ Clone the repository
 git clone https://github.com/tanishq731/naruto-flappy-bird.git
 run start move.html
 The game will start in 3 seconds, then press space bar to go up & dodge the obstacles to save your leaf village.
+
+Or it's live now, so just go to https://tanishq731.github.io/naruto-flappy-bird/
